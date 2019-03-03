@@ -3,13 +3,11 @@
 
 #include <vector>
 
-using namespace std;
-
 template<class T>
 class Matrix
 {
 	public:
-		vector< vector<T> > data;
+		std::vector< std::vector<T> > data;
 		int rows;
 		int colms;
 
